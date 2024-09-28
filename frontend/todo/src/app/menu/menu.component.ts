@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
   //isUserLoggedIn: boolean = false;
-
+//check this line
   constructor(private hardcodedAuthenticationService 
     : HardcodedAuthenticationService) { }
 
